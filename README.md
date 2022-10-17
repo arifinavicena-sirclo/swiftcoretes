@@ -63,11 +63,12 @@ $conf->obfuscate_if_statement           = true;         // obfuscation of  if el
 $conf->obfuscate_loop_statement         = true;         // obfuscation of  for while do while statements
 $conf->obfuscate_string_literal         = true;         // pseudo-obfuscation of  string literals
 ```
-3. 
+3. Run this command at the root of the project
 ```
 yakpro-po app/code/Swift/Core/Helper/Data.php -o app/code/Swift/Core/Helper/ObfuscatedData.php
 ```
 This will generate a new obfuscated file (ObfuscatedData.php)
+
 4. Backup the original Data.php and rename ObfuscatedData.php to Data.php to replace Data.php
 
 ## How to Obfuscate Code (Plugin Implementation)
