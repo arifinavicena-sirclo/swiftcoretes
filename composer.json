@@ -1,0 +1,28 @@
+{
+    "name": "arifinavicena-sirclo/swiftcoretes",
+    "type": "magento2-component",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "arifin avicena",
+            "email": "arifin.avicena@sirclo.com"
+        }
+    ],
+    "description": "SWIFT Core",
+    "homepage": "https://github.com/icube-mage/magento2-swiftoms",
+    "keywords": [
+        "magento",
+        "magento2",
+        "swift",
+        "core"
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "src/swift-core/registration.php"
+        ],
+        "psr-4": {
+            "Swift\\Core\\": "src/swift-core"
+        }
+    }
+}
